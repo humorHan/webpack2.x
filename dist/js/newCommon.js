@@ -1,11 +1,14 @@
 webpackJsonp([1,2],[
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /**
  * Created by humorHan on 2017/2/4.
  */
-console.log('来自haha.js');
+let name = 'hanjiayi';
+/* harmony default export */ __webpack_exports__["default"] = name;
 
 /***/ }),
 /* 1 */,
@@ -18,4 +21,4 @@ module.exports = __webpack_require__(0);
 
 /***/ })
 ],[3]);
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9qcy9jb21tb24vaGFoYS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUE7QUFDQTtBQUNBO0FBQ0EseUIiLCJmaWxlIjoianMvbmV3Q29tbW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDcmVhdGVkIGJ5IGh1bW9ySGFuIG9uIDIwMTcvMi80LlxuICovXG5jb25zb2xlLmxvZygn5p2l6IeqaGFoYS5qcycpO1xuXG5cbi8vLy8vLy8vLy8vLy8vLy8vL1xuLy8gV0VCUEFDSyBGT09URVJcbi8vIC4vanMvY29tbW9uL2hhaGEuanNcbi8vIG1vZHVsZSBpZCA9IDBcbi8vIG1vZHVsZSBjaHVua3MgPSAxIl0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9qcy9jb21tb24vaGFoYS5qcz9iNGU4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG1FIiwiZmlsZSI6ImpzL25ld0NvbW1vbi5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQ3JlYXRlZCBieSBodW1vckhhbiBvbiAyMDE3LzIvNC5cbiAqL1xubGV0IG5hbWUgPSAnaGFuamlheWknO1xuZXhwb3J0IGRlZmF1bHQgbmFtZTtcblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL2pzL2NvbW1vbi9oYWhhLmpzXG4vLyBtb2R1bGUgaWQgPSAwXG4vLyBtb2R1bGUgY2h1bmtzID0gMCAxIl0sInNvdXJjZVJvb3QiOiIifQ==

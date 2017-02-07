@@ -137,11 +137,11 @@ module.exports = function (isWatch, isDev) {
                     loader: 'url?limit=8192&name=img/[name].[ext]'
                 }, {
                     test: /^es5-sham\.min\.js|es5-shim\.min\.js$/,
-                    include: [
+                    /*include: [
                         path.join(__dirname, 'js'),
                         path.join(__dirname, 'dep')
-                    ],
-                    loader: 'script-loader',
+                    ],*/
+                    loader: 'babel-loader',
                     exclude: node_modules
                 }, {
                     test: /\.html$/,
