@@ -1,0 +1,22 @@
+.home {
+  display: inline-block;
+  margin: 0;
+  background: red;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  cursor: pointer; }
+  .home:hover {
+    -webkit-animation: move 2s infinite;
+            animation: move 2s infinite; }
+
+@-webkit-keyframes move {
+  from {
+    height: 0px; }
+  to {
+    height: 200px; } }
+
+@keyframes move {
+  from {
+    height: 0px; }
+  to {
+    height: 200px; } }

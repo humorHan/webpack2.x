@@ -1,0 +1,33 @@
+{
+  "name": "webpack2.x",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpFile.js",
+  "scripts": {},
+  "author": "humorHan",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "*",
+    "css-loader": "^0.26.0",
+    "del": "*",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "file-loader": "^0.9.0",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.19.0",
+    "less": "^2.3.1",
+    "less-loader": "^2.2.3",
+    "node-sass": "^3.13.0",
+    "postcss-loader": "*",
+    "sass-loader": "^4.0.0",
+    "script-loader": "*",
+    "style-loader": "^0.13.1",
+    "tmodjs-loader": "^1.0.1",
+    "url-loader": "^0.5.7",
+    "vinyl-paths": "*",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {}
+}
