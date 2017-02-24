@@ -134,7 +134,7 @@ module.exports = function (isWatch, isDev) {
                 }, {
                     test: /\.(png|jpeg|jpg|gif)$/,
                     //loader: 'url?limit=8192&name=img/[hash:8]-[name].[ext]'
-                    loader: 'url?limit=8192&name=img/[name].[ext]'
+                    loader: 'url-loader?limit=8192&name=img/[name].[ext]'
                 }, {
                     test: /^es5-sham\.min\.js|es5-shim\.min\.js$/,
                     /*include: [
