@@ -6,6 +6,12 @@
   "scripts": {},
   "author": "humorHan",
   "license": "ISC",
+  "keywords": [
+    "webpack",
+    "webpack2.x",
+    "webpack配置",
+    "webpack2.2.1"
+  ],
   "dependencies": {
     "babel-core": "^6.1.2",
     "babel-loader": "^6.1.0",
