@@ -22,8 +22,8 @@ var entries = (function () {
     map['newCommon'] = [
         path.join(__dirname, '/js/common/haha.js')
         /*path.join(__dirname, '/src/js/common/fixTop.js'),
-        path.join(__dirname, '/src/js/common/newCart.js'),
-        path.join(__dirname, '/src/js/common/rightBar.js')*/
+         path.join(__dirname, '/src/js/common/newCart.js'),
+         path.join(__dirname, '/src/js/common/rightBar.js')*/
     ];
     return map;
 })();
@@ -111,14 +111,14 @@ module.exports = function (isWatch, isDev) {
                     use: isDev ?
                         cssExtractTextPlugin.extract({
                             //fallbackLoader: 'style-loader',
-                            loader: [
+                            use: [
                                 "css-loader?sourceMap",
                                 'postcss-loader?sourceMap',
                                 "sass-loader?sourceMap"
                             ]
                         }) : cssExtractTextPlugin.extract({
                             //fallbackLoader: 'style-loader',
-                            loader: [
+                            use: [
                                 "css-loader",
                                 'postcss-loader',
                                 "sass-loader"
@@ -138,9 +138,9 @@ module.exports = function (isWatch, isDev) {
                 }, {
                     test: /^es5-sham\.min\.js|es5-shim\.min\.js$/,
                     /*include: [
-                        path.join(__dirname, 'js'),
-                        path.join(__dirname, 'dep')
-                    ],*/
+                     path.join(__dirname, 'js'),
+                     path.join(__dirname, 'dep')
+                     ],*/
                     loader: 'babel-loader',
                     exclude: node_modules
                 }, {
