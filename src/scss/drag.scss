@@ -1,0 +1,77 @@
+@import "common/normalize.css";
+@import "common/base.scss";
+
+/*TODO 有待优化 -- 更改结构*/
+.wrapper{
+  color: rgba(0, 0, 0, 0.68);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 500px;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid aliceblue;
+}
+.pop-mask{
+  /*display: none;*/
+  z-index: 98;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: .6;
+}
+
+.pop-up{
+  /*display: none;*/
+  box-shadow: 1px 2px 10px #b2b1b9;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 99;
+  width: 400px;
+  //height: 300px;
+  left: 20%;
+  top: 20%;
+  background-color: #FFF;
+  border-radius: 4px;
+  .pop-title{
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    color: #4caf50;
+    border-bottom: 1px solid #4caf50;
+    font-weight: 500;
+    cursor: -webkit-grab;
+    user-select: none;
+  }
+  .pop-content{
+    margin: 10px 30px;
+    min-height: 100px;
+  }
+  .pop-handle{
+    text-align: center;
+    margin: 10px;
+    .handle-style{
+      display: inline-block;
+      line-height: 28px;
+      text-align: center;
+      height: 28px;
+      width: 98px;
+      border: 1px solid #e1e2e3;
+      border-radius: 2px;
+      cursor: pointer;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+    .ok:hover{
+        background: #f7f2f2;
+        color: #437943;
+    }
+    .delete:hover{
+      background: #f7f2f2;
+      color: #f96f6f;
+    }
+  }
+}

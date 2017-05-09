@@ -1,2 +1,2 @@
-# webpack2.x
-webpack2.x 配置 
+# webpack2.x  2017-5-9
+webpack2.x 最新配置 
