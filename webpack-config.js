@@ -20,9 +20,9 @@ var entries = (function () {
         var fileName = filePath.substring(filePath.lastIndexOf('\/') + 1, filePath.lastIndexOf('.'));
         map[fileName] = filePath;
     });
-    map['vendor'] = [
+    /*map['vendor'] = [
         path.join(__dirname, '/src/dep/jquery-3.1.1.min.js')
-    ];
+    ];*/
     return map;
 })();
 
