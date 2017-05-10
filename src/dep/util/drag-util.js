@@ -25,8 +25,8 @@ Drag.prototype = {
             let e = event || window.event;
             _this.x = e.pageX;
             _this.y = e.pageY;
-            _this.mx = _this.$moveDom.offset().left;
-            _this.my = _this.$moveDom.offset().top;
+            _this.mx = _this.$moveDom.position().left;
+            _this.my = _this.$moveDom.position().top;
             _this.isDragable = true;
         });
         $(document).on("mousemove", function(event){
