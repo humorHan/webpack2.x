@@ -83,6 +83,7 @@ module.exports = function (isWatch, isDev) {
             path: path.join(__dirname, 'dist'),
             //publicPath: '/webpack2.x/dist/',
             libraryTarget: 'umd',
+            pathinfo: isDev ? true : false,
             filename: isDev ? "js/[name].js" : "js/[name]-[chunkhash].js",
             chunkFilename: isDev ? "js/[name]-chunk.js" : "js/[name]-chunk-[chunkhash].js"
         },
@@ -96,7 +97,8 @@ module.exports = function (isWatch, isDev) {
             extensions: ['.js', '.tpl', '.scss', '.json'],
             alias: {
                 //'mock': path.join(__dirname, 'src', 'dep', 'mock.js'),
-                'jquery': path.join(__dirname, 'src', 'dep', 'jquery-3.1.1.js')
+                'jquery': path.join(__dirname, 'src', 'dep', 'jquery-3.1.1.js'),
+                'demo$': '' //$代表精确查找   -- 该行为注释行
             }
         },
         module: {
